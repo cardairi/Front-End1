@@ -1,0 +1,54 @@
+/* Encabezado */
+.fondo {
+    background-image: url('Imagenes/background.jpg');
+    background-size: cover;
+}
+/* Foto de mi perfil */
+.DePerfil {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-bottom: 12px;
+    left: 600px;
+    top: 25px;
+    border-radius: 15px;
+}
+/* titulo Princial */
+h1 {
+    background-color: #e68de6;
+    font-family: 'Montserrat', sans-serif;   
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 6px; 
+}
+h2 {
+    background-color:#f3c2f3 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: bold;
+
+}
+.SobreMi{
+    font-family:'Montserrat', sans-serif;
+}
+/* Parrafos */
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+/* Fechas */
+span {
+    font-weight: bold; 
+}
+.Redes {
+    background-color: rgb(34, 6, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    
+}
