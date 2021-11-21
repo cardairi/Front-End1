@@ -1,0 +1,56 @@
+.cabecera{
+    background-color:#E6E6E6;
+}
+/* Etilo del titutlo */
+.titulo {
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman';
+    color: #005677;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+}
+/* Estilo del batman :D */
+.logo {
+    position: relative;
+    margin-bottom: 12px;
+    width: 100px;
+    height: 146.37px;
+    left: 670px;
+    top: 20.91px;
+}
+/* Titulos */
+h2 {
+    background-color: #C4C4C4;
+    font-family: 
+    color: #005677;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+
+/* datos personales */
+.separacion {
+            line-height:30px;
+            font-size: 15px;
+            }
+em {
+    font-weight: bold;
+}
+.alinear {
+    text-align: left;
+
+}
+
+/* EL foooter */
+.pie {
+    background-color:#005677;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.iconos {
+    position: relative;
+    
+
+}
