@@ -52,3 +52,15 @@ i{
     font-size: 30px;
     
 }
+.segundotitulo {
+    background-image: url('Imagenes/background.jpg');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.parrafo {
+    background-color: cadetblue;
+    width: 150px;
+}
