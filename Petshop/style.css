@@ -9,5 +9,82 @@
     background-color: #F0A83E;
     color: white;
     font-family:'Roboto', sans-serif;
-    
+
 }
+/* Iconos en listas de la barra de navegacion */
+.iconos {
+    list-style-image: url('Imagenes.png/pawprint\ 1.png');
+}
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+/* Todo lo referente al banner */
+.banner{
+    background-image: url(Imagenes.png/bowl-and-pet-daities-on-green-background\ 1.png);
+    width: 1025px;
+    height: 409px;
+    top: 81px;
+    border-radius: 0px;
+}
+h1 {
+    text-align: center;
+}
+.comederos{
+    color: #3C2313;
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 19px;
+}
+.btnComederos{
+    position: absolute;
+    background-color: #F0A83E;
+    color: white;
+    text-align: center;
+    width: 141px;
+    height: 20px;
+}
+
+/* Prductos destacados */
+h2 {
+    color: #3C2313;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 23px;
+    line-height: 100%;
+}
+.cards p{
+    color:#3C2313;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+div {
+ color: #F0A83E;
+ font-style: medium;
+ font-weight: 500;
+font-size: 15px;
+Line-height: 18px;
+line-height:100%;
+}
+
+/* Todo lo relacionado con el footer */
+.contacto {
+    background-color: #3C2313;
+    color: white;
+}
+.derechos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+
