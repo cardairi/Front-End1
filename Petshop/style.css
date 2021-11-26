@@ -7,6 +7,7 @@
 .topMenu{
     background-color: #222222;
     width: 1024px ;
+    height: 20px;
     color: white;
     font-style: normal;
     font-weight: normal;
@@ -14,7 +15,7 @@
     line-height: 12px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     }
 /* Grandes ofertas de comederos */
 #ofertas {
@@ -48,9 +49,10 @@
     margin: 20px;
 }
 /* Todo lo referente al banner */
-
 .banner{
     background-image: url(Imagenes.png/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 1025px;
     height: 409px;
     top: 81px;
@@ -145,3 +147,4 @@ line-height:100%;
     line-height: 12px;
 }
 
+ 
