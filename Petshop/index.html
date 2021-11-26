@@ -16,7 +16,7 @@
             <p id="lenguajes">Epañol <span>$ARG</span></p>
     </nav>
     <nav class="secondMenu">
-        <img src="Imagenes.png/Logo.png" alt="Logo">
+        <div><img src="Imagenes.png/Logo.png" alt="Logo"></div>
         <ul class="categoriasBarra">
             <li>Categorias</li>
             <li>Pets</li>
@@ -26,44 +26,88 @@
     </nav>
 </header>
 <body>
+    <!--Banner-->
     <section class="banner">
-        <h1>¡Es un placer tenerte aquí!</h1>
-        <p class="comederos">¡Comederos en descuento!</p>
-        <p class="btnComederos">COMEDEROS</p>
+            <h1>¡Es un placer tenerte aquí!</h1>
+            <p class="comederos">¡Comederos en descuento!</p>
+            <p class="boton">COMEDEROS</p>
     </section>
-    <section class="cards">
-        <img src="Imagenes.png/pawprint 2.png" alt="Paw1">
-        <h2>Productos Destacados</h2>
-        <p>Comederos-Accesorios-Comida</p>
-    
-        <img src="Imagenes.png/churrasquito.png" alt="churrasquito">
-        <p>Juguete Churrasquito</p>
-        <div>$150</div>
-
-        <img src="Imagenes.png/comedero.png" alt="Comedero">
-        <p>Comedero</p>
-        <div>$250</div>
-   
-  
-        <img src="Imagenes.png/Huesito.png" alt="Huesito">
-        <p>Jueguete Huesito</p>
-        <div>$650</div>
+    <!--Productos Destacados-->
+        <section class="products">
+                <div><img src="Imagenes.png/pawprint 2.png" alt="Paw1"></div>
+                <h2>Productos Destacados</h2>
+                <p>Comederos<span>-</span>Accesorios<span>-</span>Comida</p>
+        </section>
+        <section class="cards">
+           <article>
+               <img src="Imagenes.png/churrasquito.png" alt="churrasquito">
+                <p>Juguete churrasquito
+                    <div>$150</div>
+                </p>
+            </article>
+            <article>
+                <img src="Imagenes.png/comedero.png" alt="Comedero">
+                <p>Comedero 
+                    <div>$250</div>
+                </p>
+            </article>
+            <article>
+                <img src="Imagenes.png/Huesito.png" alt="Huesito">
+                <p>Jueguete Huesito
+                    <div>$650</div>
+                </p>
+            </article>
+        </section>
+    <!--Formulario de Contactenos-->
+        <section>
+            <h3> Contáctanos </h3>
+                <form class="form" action="n" method="POST">
+                    <lebel for="name">
+                        <input class="buttons" type="text" name="name" id="name" placeholder="Nombre y Apellido">
+                    </lebel>
+                    <lebel for="mail">
+                        <input class="buttons" type="text" name="mail" id="mail" placeholder="Ingresa tu correo electrónico">
+                    </lebel>
+                    <lebel for="phone">
+                        <input class="buttons" type="text" name="phone" id="phone" placeholder="Telefono">
+                    </lebel>
+                
+                <div>
+                    <button class="resetButton" type="reset">Resetear</button>
+                    <button class="submitButton" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    <!--Suscripcion-->
+    <section class="novedades">
+        <article class="suscription">
+            <div><img src="Imagenes.png/enviar-correo 1.png" alt="correo"> </div>
+                <p>Suscríbete para más novedades </p>
+        </article>
+        <article class="formulario">
+            <form action="n" method="post">
+                <lebel for= "email">
+                    <input class="suscriptionForm" type="text" name="email" id="email" placeholder="Ingresa tu correo electronico">
+                </lebel>
+            </form>
+            <div>
+                <button class="suscriptionButton" type="submit">Suscribirme</button>
+            </div>
+        </article>
     </section>
 </body>
+
 <footer class="contacto">
-    <section>
-        <p>Localidad</p>
-        <img src="Imagenes.png/Location.png" alt="Ubicacion">
-    </section>
-    <section>
-        <p> Telefono</p>
-        <img src="Imagenes.png/Phone.png" alt="Telefono">
-    </section>
-    <section>
-        <p> Correo Electronico</p>
-        <img src="Imagenes.png/Correo.png" alt="Email">
-    </section>
-    <img src="Imagenes.png/Logo2.png" alt="Logo2">
+    <section class="imagenesFooter">
+        <article>
+            <img src="Imagenes.png/Location.png" alt="Ubicacion"> <br>
+            <img src="Imagenes.png/Phone.png" alt="Telefono"> <br>
+            <img src="Imagenes.png/Correo.png" alt="Email">
+        </article>
+        <article>
+            <img src="Imagenes.png/Logo2.png" alt="Logo2">
+        </article>  
+</section>
     <p class="derechos">Todos los derecho reservados Front End</p>
 </footer>
 </html>
