@@ -1,33 +1,80 @@
-/* Primera Barra en negro */
-.Primera {
-    background-color: black;
+* {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Primera Barra en negro */
+.topMenu{
+    background-color: #222222;
+    width: 1024px ;
     color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+/* Grandes ofertas de comederos */
+#ofertas {
+    padding-left: 60px;
+}
+/* Barra de lenguaje */
+#lenguajes {
+    padding-right: 50px;
+}
+.topMenu span {
+    margin: 20px;
 }
 /* Barra Menu de navegacion */
-.Menu{
+.secondMenu{
     background-color: #F0A83E;
+    width: 1024px;
     color: white;
-    font-family:'Roboto', sans-serif;
-
+    height: 62px;
+    width: 1024px;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-/* Iconos en listas de la barra de navegacion */
-.iconos {
+.secondMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.categoriasBarra li{
     list-style-image: url('Imagenes.png/pawprint\ 1.png');
-}
-body {
-    font-family: 'Roboto', sans-serif;;
+    margin: 20px;
 }
 /* Todo lo referente al banner */
+
 .banner{
     background-image: url(Imagenes.png/bowl-and-pet-daities-on-green-background\ 1.png);
     width: 1025px;
     height: 409px;
     top: 81px;
+    position: relative;
+    top: 0px;    
     border-radius: 0px;
 }
 h1 {
+    background-color: white;
+    border-radius: 5px;
+    width: 365px;
+    height: 54px;
+    left: 648px;
+    top: 250px;
+    color: #3C2313;
     text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
 }
 .comederos{
     color: #3C2313;
@@ -35,14 +82,24 @@ h1 {
     font-style: bold;
     font-size: 20px;
     line-height: 19px;
+    position: relative;
+    left: 310px;
+    top: 220px;
 }
 .btnComederos{
     position: absolute;
     background-color: #F0A83E;
+    width: 141px;
+    height: 49px;
     color: white;
     text-align: center;
-    width: 141px;
-    height: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 750px;
+    bottom: 100px;
 }
 
 /* Prductos destacados */
