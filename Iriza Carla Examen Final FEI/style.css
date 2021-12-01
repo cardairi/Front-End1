@@ -1,0 +1,223 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+
+/* Header :D*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+nav {
+    width: 30%;
+}
+nav ul{
+    list-style: none;
+    color: #242E52;
+    display: flex;
+    justify-content: space-between;
+}
+.getStartedButton {
+    background-color: #F3603B;
+    color: white;
+    font-size: 13px;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 130px;
+    height: 44px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+}
+/* Principal Container */
+h1 {
+    font-size: 45px;
+    font-style: bold;
+    color:#232C50;
+}
+.principalContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.children1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 40%;
+    padding: 90px;
+}
+.principalContainer p {
+    font-style: medium;
+    font-size: 16px;
+    line-height: 157.1%;
+
+}
+/* Segundo contenedor padre */
+.secondaryContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+/* What's different about Manage? */
+.children2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 70%;
+    padding: 150px;
+}
+.children2 h2 {
+    color: #232851;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.children2 p {
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    }
+/* Contenedor enumerado */
+.children3 {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.children3 button {
+    background-color: #F3603B;
+    color: white;
+    font-size: 13px;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 80px;
+    height: 44px;
+}
+/* What they´ve said y cards */
+.texto {
+    text-align: center;
+    color: #242E53;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    padding: 50px;
+  }
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    padding: 50px;
+}
+.cardAnisha {
+    background-color:gray;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.getStartedButton2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Simplify hoy your team
+words today. */
+.simplify {
+    background-color:  #F3613C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.simplify p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Footer */
+.menuFooter {
+    background-color: #1E1E26;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.listas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+.listas ul{
+    list-style: none;
+}
+.listas li {
+    margin: 10px;
+}
+.formFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+.form {
+    width: 200px;
+    height: 44px;
+    border-radius: 50px
+}
+.goButton {
+    background-color: #F3603B;
+    color: white;
+    font-size: 13px;
+    border: solid #F3603B;
+    border-radius: 50px;
+    width: 80px;
+    height: 44px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+.formFooter p {
+    color: #8C8C94;
+    font-size: 12px;
+    font-weight: 500;
+}
